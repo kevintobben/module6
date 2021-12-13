@@ -3,10 +3,25 @@
         padding: 0;
     }
     
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
     .left {
         background-color: white;
+        width: 50%;
+        height: 100vh;
+        float: left;
     }
     
     .right {
-        background-color: #eb4034;
+        background-color: #d51846;
+        width: 50%;
+        height: 100vh;
     }
