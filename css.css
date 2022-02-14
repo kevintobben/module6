@@ -1,0 +1,107 @@
+    * {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+        cursor: url('image-path.png'), auto;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    /* witte gedeelte*/
+    
+    .left {
+        background-color: white;
+        width: 50%;
+        height: 100vh;
+        float: left;
+    }
+    
+    .beker {
+        margin-left: 24vh;
+        margin-top: 28vh;
+        font-size: 16px;
+        line-height: 24px;
+        width: 40px;
+    }
+    
+    h1 {
+        text-align: left;
+        margin-top: 2vh;
+        margin-left: 24vh;
+        font-size: 28px;
+    }
+    
+    p {
+        text-align: left;
+        margin-left: 24vh;
+        font-size: 16px;
+    }
+    
+    .apps {
+        margin-top: 5vh;
+    }
+    
+    .apple {
+        margin-left: 24vh;
+    }
+    
+    .android {
+        margin-left: 1vh;
+    }
+    
+    .grijs {
+        margin-top: 8vh;
+        color: grey;
+        font-size: 14px;
+    }
+    
+    .grijs a:visited {
+        text-decoration: none;
+        outline: none;
+        color: grey;
+    }
+    
+    .grijs a:active {
+        text-decoration: none;
+        color: grey;
+    }
+    /* roze gedeelte*/
+    
+    .right {
+        background-color: #d51846;
+        width: 50%;
+        height: 100vh;
+    }
+    
+    .iphone {
+        width: 367px;
+        height: 699px;
+        background-image: url(iphone.png);
+        background-size: 367px 699px;
+        margin-top: 14vh;
+        margin-left: 31vh;
+    }
+    
+    .iphone video {
+        position: relative;
+        left: 45px;
+        top: 105px;
+        width: 277px;
+    }
+    
+    .popup {
+        width: 100px;
+        height: 100px;
+        background: -webkit-linear-gradient(left, orange, yellow, green, cyan, blue, violet);
+        background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+        background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+        background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+    }
