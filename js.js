@@ -24,5 +24,5 @@ function yourlink() {
     for (let i = 0; i < locs.length; i++) {
         window.open(locs[i])
     }
-
+    //hi
 }
