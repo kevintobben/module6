@@ -19,7 +19,7 @@ function myFunction() {
 
 function yourlink() {
 
-    var locs = ['http://buzzybuzz.biz/', 'https://www.omfgdogs.com/#'] //https://www.omfgdogs.com/#
+    var locs = ['http://buzzybuzz.biz/']
 
     for (let i = 0; i < locs.length; i++) {
         window.open(locs[i])
