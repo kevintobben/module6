@@ -1,260 +1,248 @@
-        * {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-            cursor: url('beker.svg'), auto;
+    * {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+        cursor: url('beker.svg'), auto;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height: 100%;
+        -webkit-animation: rainbow .1s infinite;
+        -ms-animation: rainbow .5s infinite;
+        -o-animation: rainbow .5s infinite;
+        animation: rainbow .5s infinite;
+        mix-blend-mode: multiply;
+    }
+    /* witte gedeelte*/
+    
+    .left {
+        width: 50%;
+        height: 100vh;
+        float: left;
+        -webkit-animation: rainbow .1s infinite;
+        -ms-animation: rainbow .5s infinite;
+        -o-animation: rainbow .5s infinite;
+        animation: rainbow .5s infinite;
+        mix-blend-mode: multiply;
+    }
+    
+    h1 {
+        text-align: left;
+        margin-top: 29vh;
+        margin-left: 24vh;
+        font-size: 28px;
+    }
+    
+    p {
+        text-align: left;
+        margin-left: 24vh;
+        font-size: 16px;
+    }
+    
+    .apps {
+        margin-top: 5vh;
+    }
+    
+    .apple {
+        margin-left: 24vh;
+    }
+    
+    .android {
+        margin-left: 1vh;
+    }
+    /* roze gedeelte*/
+    
+    .right {
+        -webkit-animation: rainbow .1s infinite;
+        -ms-animation: rainbow .5s infinite;
+        -o-animation: rainbow .5s infinite;
+        animation: rainbow .5s infinite;
+        mix-blend-mode: multiply;
+    }
+    
+    .iphone {
+        width: 367px;
+        height: 700px;
+        background-image: url(iphone.png);
+        background-size: 367px 699px;
+        mix-blend-mode: multiply;
+    }
+    
+    .iphone video {
+        position: relative;
+        left: 1px;
+        top: 70px;
+        width: 285px;
+    }
+    
+    .popup {
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+        mix-blend-mode: multiply;
+    }
+    
+    #beker {
+        cursor: pointer;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        transition: all 0.1s;
+    }
+    
+    svg {
+        position: absolute;
+        width: 500px;
+        fill: black;
+    }
+    
+    @-webkit-keyframes rainbow {
+        0% {
+            background: #ff0000;
         }
-        
-        .container {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: center;
-            align-content: center;
-            align-items: center;
-            height: 100%;
-            -webkit-animation: rainbow .1s infinite;
-            -ms-animation: rainbow .5s infinite;
-            -o-animation: rainbow .5s infinite;
-            animation: rainbow .5s infinite;
+        10% {
+            background: #ff8000;
         }
-        /* witte gedeelte*/
-        
-        .left {
-            width: 50%;
-            height: 100vh;
-            float: left;
-            -webkit-animation: rainbow .1s infinite;
-            -ms-animation: rainbow .5s infinite;
-            -o-animation: rainbow .5s infinite;
-            animation: rainbow .5s infinite;
+        20% {
+            background: #ffff00;
         }
-        
-        h1 {
-            text-align: left;
-            margin-top: 29vh;
-            margin-left: 24vh;
-            font-size: 28px;
+        30% {
+            background: #80ff00;
         }
-        
-        p {
-            text-align: left;
-            margin-left: 24vh;
-            font-size: 16px;
+        40% {
+            background: #00ff00;
         }
-        
-        .apps {
-            margin-top: 5vh;
+        50% {
+            background: #00ff80;
         }
-        
-        .apple {
-            margin-left: 24vh;
+        60% {
+            background: #00ffff;
         }
-        
-        .android {
-            margin-left: 1vh;
+        70% {
+            background: #0080ff;
         }
-        
-        .grijs {
-            margin-top: 8vh;
-            color: grey;
-            font-size: 14px;
+        80% {
+            background: #0000ff;
         }
-        
-        .grijs a:visited {
-            text-decoration: none;
-            outline: none;
-            color: grey;
+        90% {
+            background: #8000ff;
         }
-        
-        .grijs a:active {
-            text-decoration: none;
-            color: grey;
+        100% {
+            background: #ff0080;
         }
-        /* roze gedeelte*/
-        
-        .right {
-            -webkit-animation: rainbow .1s infinite;
-            -ms-animation: rainbow .5s infinite;
-            -o-animation: rainbow .5s infinite;
-            animation: rainbow .5s infinite;
+    }
+    
+    @-ms-keyframes rainbow {
+        0% {
+            background: #ff0000;
         }
-        
-        .iphone {
-            width: 367px;
-            height: 700px;
-            background-image: url(iphone.png);
-            background-size: 367px 699px;
+        10% {
+            background: #ff8000;
         }
-        
-        .iphone video {
-            position: relative;
-            left: 1px;
-            top: 70px;
-            width: 285px;
+        20% {
+            background: #ffff00;
         }
-        
-        .popup {
-            width: 100px;
-            height: 100px;
-            background-color: transparent;
+        30% {
+            background: #80ff00;
         }
-        
-        #beker {
-            cursor: pointer;
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            transition: all 0.1s;
+        40% {
+            background: #00ff00;
         }
-        
-        svg {
-            position: absolute;
-            width: 500px;
-            fill: black;
+        50% {
+            background: #00ff80;
         }
-        
-        @-webkit-keyframes rainbow {
-            0% {
-                background: #ff0000;
-            }
-            10% {
-                background: #ff8000;
-            }
-            20% {
-                background: #ffff00;
-            }
-            30% {
-                background: #80ff00;
-            }
-            40% {
-                background: #00ff00;
-            }
-            50% {
-                background: #00ff80;
-            }
-            60% {
-                background: #00ffff;
-            }
-            70% {
-                background: #0080ff;
-            }
-            80% {
-                background: #0000ff;
-            }
-            90% {
-                background: #8000ff;
-            }
-            100% {
-                background: #ff0080;
-            }
+        60% {
+            background: #00ffff;
         }
-        
-        @-ms-keyframes rainbow {
-            0% {
-                background: #ff0000;
-            }
-            10% {
-                background: #ff8000;
-            }
-            20% {
-                background: #ffff00;
-            }
-            30% {
-                background: #80ff00;
-            }
-            40% {
-                background: #00ff00;
-            }
-            50% {
-                background: #00ff80;
-            }
-            60% {
-                background: #00ffff;
-            }
-            70% {
-                background: #0080ff;
-            }
-            80% {
-                background: #0000ff;
-            }
-            90% {
-                background: #8000ff;
-            }
-            100% {
-                background: #ff0080;
-            }
+        70% {
+            background: #0080ff;
         }
-        
-        @-o-keyframes rainbow {
-            0% {
-                background: #ff0000;
-            }
-            10% {
-                background: #ff8000;
-            }
-            20% {
-                background: #ffff00;
-            }
-            30% {
-                background: #80ff00;
-            }
-            40% {
-                background: #00ff00;
-            }
-            50% {
-                background: #00ff80;
-            }
-            60% {
-                background: #00ffff;
-            }
-            70% {
-                background: #0080ff;
-            }
-            80% {
-                background: #0000ff;
-            }
-            90% {
-                background: #8000ff;
-            }
-            100% {
-                background: #ff0080;
-            }
+        80% {
+            background: #0000ff;
         }
-        
-        @keyframes rainbow {
-            0% {
-                background: #ff0000;
-            }
-            10% {
-                background: #ff8000;
-            }
-            20% {
-                background: #ffff00;
-            }
-            30% {
-                background: #80ff00;
-            }
-            40% {
-                background: #00ff00;
-            }
-            50% {
-                background: #00ff80;
-            }
-            60% {
-                background: #00ffff;
-            }
-            70% {
-                background: #0080ff;
-            }
-            80% {
-                background: #0000ff;
-            }
-            90% {
-                background: #8000ff;
-            }
-            100% {
-                background: #ff0080;
-            }
+        90% {
+            background: #8000ff;
         }
+        100% {
+            background: #ff0080;
+        }
+    }
+    
+    @-o-keyframes rainbow {
+        0% {
+            background: #ff0000;
+        }
+        10% {
+            background: #ff8000;
+        }
+        20% {
+            background: #ffff00;
+        }
+        30% {
+            background: #80ff00;
+        }
+        40% {
+            background: #00ff00;
+        }
+        50% {
+            background: #00ff80;
+        }
+        60% {
+            background: #00ffff;
+        }
+        70% {
+            background: #0080ff;
+        }
+        80% {
+            background: #0000ff;
+        }
+        90% {
+            background: #8000ff;
+        }
+        100% {
+            background: #ff0080;
+        }
+    }
+    
+    @keyframes rainbow {
+        0% {
+            background: #ff0000;
+        }
+        10% {
+            background: #ff8000;
+        }
+        20% {
+            background: #ffff00;
+        }
+        30% {
+            background: #80ff00;
+        }
+        40% {
+            background: #00ff00;
+        }
+        50% {
+            background: #00ff80;
+        }
+        60% {
+            background: #00ffff;
+        }
+        70% {
+            background: #0080ff;
+        }
+        80% {
+            background: #0000ff;
+        }
+        90% {
+            background: #8000ff;
+        }
+        100% {
+            background: #ff0080;
+        }
+    }
