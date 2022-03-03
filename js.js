@@ -36,6 +36,7 @@ object.onmouseover = function() {
     object.style.top = x + 'px';
     object.style.left = y + 'px';
 };
+
 //dvd
 const section = document.querySelector("section");
 const logo = document.querySelector(".logo");
