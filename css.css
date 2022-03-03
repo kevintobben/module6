@@ -3,7 +3,7 @@
         padding: 0;
         overflow: hidden;
         font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-        cursor: url('image-path.png'), auto;
+        cursor: url('beker.svg'), auto;
     }
     
     .container {
@@ -24,17 +24,11 @@
         float: left;
     }
     
-    .beker {
-        margin-left: 24vh;
-        margin-top: 28vh;
-        font-size: 16px;
-        line-height: 24px;
-        width: 40px;
-    }
+    
     
     h1 {
         text-align: left;
-        margin-top: 2vh;
+        margin-top: 29vh;
         margin-left: 24vh;
         font-size: 28px;
     }
@@ -83,18 +77,18 @@
     
     .iphone {
         width: 367px;
-        height: 699px;
+        height: 750px;
         background-image: url(iphone.png);
         background-size: 367px 699px;
-        margin-top: 14vh;
+        margin-top: 1vh;
         margin-left: 31vh;
     }
     
     .iphone video {
         position: relative;
-        left: 45px;
-        top: 105px;
-        width: 277px;
+        left: 1px;
+        top: 70px;
+        width: 285px;
     }
     
     .popup {
@@ -105,3 +99,11 @@
         background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
         background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
     }
+
+    .beker { 
+        cursor: pointer;
+        position: absolute; 
+        top: 0px; 
+        left: 0px; 
+        transition: all 0.1s;
+      }

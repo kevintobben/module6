@@ -35,4 +35,4 @@ object.onclick=function(){
     var y = Math.floor(Math.random()*300);
     object.style.top = x + 'px';
     object.style.left = y + 'px';
-}bbbb
+}
