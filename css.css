@@ -100,10 +100,12 @@
         background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
     }
 
-    .beker { 
+    #beker { 
         cursor: pointer;
         position: absolute; 
         top: 0px; 
         left: 0px; 
         transition: all 0.1s;
       }
+
+      
