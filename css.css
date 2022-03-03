@@ -79,28 +79,10 @@ p {
 /* roze gedeelte*/
 
 .right {
-    width: 50%;
-    height: 100vh;
     -webkit-animation: rainbow .1s infinite;
     -ms-animation: rainbow .5s infinite;
     -o-animation: rainbow .5s infinite;
     animation: rainbow .5s infinite;
-}
-
-.iphone {
-    width: 367px;
-    height: 750px;
-    background-image: url(iphone.png);
-    background-size: 367px 699px;
-    margin-top: 1vh;
-    margin-left: 31vh;
-}
-
-.iphone video {
-    position: relative;
-    left: 1px;
-    top: 70px;
-    width: 285px;
 }
 
 .popup {
