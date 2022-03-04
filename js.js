@@ -78,9 +78,9 @@ function randomColor() {
 console.log(randomColor());
 
 window.addEventListener("resize", () => {
-        xPosition = 10;
-        yPosition = 10;
+    xPosition = 10;
+    yPosition = 10;
 
-        section.style.height = window.innerHeight + "px";
-        section.style.width = window.innerWidth + "px";
-    }) //eeendjes
+    section.style.height = window.innerHeight + "px";
+    section.style.width = window.innerWidth + "px";
+})
